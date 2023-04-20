@@ -17,10 +17,10 @@
  -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-plugin-screen-orientation"
-    version="3.0.4-dev">
+    id="ischemaview-cordova-plugin-screen-orientation"
+    version="0.0.1">
     <name>Screen Orientation</name>
-    <description>Cordova Screen Orientation plugin</description>
+    <description>Ischemaview Cordova Screen Orientation plugin</description>
     <license>Apache 2.0</license>
 
     <engines>
