@@ -1,7 +1,7 @@
 {
-  "name": "cordova-plugin-screen-orientation",
-  "version": "3.0.4-dev",
-  "description": "Cordova Screen Orientation plugin",
+  "name": "ischemaview-cordova-plugin-screen-orientation",
+  "version": "0.0.1",
+  "description": "Ischemaview's Cordova Screen Orientation plugin",
   "repository": "github:apache/cordova-plugin-screen-orientation",
   "bugs": "https://github.com/apache/cordova-plugin-screen-orientation/issues",
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "eslint ."
   },
   "cordova": {
-    "id": "cordova-plugin-screen-orientation",
+    "id": "ischemaview-cordova-plugin-screen-orientation",
     "platforms": [
       "android",
       "ios",
@@ -39,5 +39,8 @@
         "cordova": ">100"
       }
     }
+  },
+  "publishConfig": {
+    "registry": "https://nexus.infrastructure.rapid-sys.com/repository/npm-internal"
   }
 }
